@@ -1,0 +1,112 @@
+
+body{
+  font-family:sans-serif;
+  background-color: azure;
+  padding-top:160px;
+}
+header{
+  width:100%;/*ancho*/
+  color:white;
+  position:fixed;
+  top:0;
+  left:0;
+  font-size:20px;
+  font-family:serif;
+  background-color:#39d1d9;
+  text-align:center;
+}
+/*Ventana 1 */
+#ventana1{
+  display:block;
+}
+ul{
+  list-style:none;/*sin estilo de lista*/
+  padding:0;
+  margin:0;
+  background:#80d6e7;
+  line-height:38px;/*altura de linea*/
+}
+li{
+  width:160px;/*ancho*/
+  /*margin-right:10px;/*espacio derecho*/
+  display:inline-block;/*ocupa el espacio disponible de la etiqueta que contiene, puede ser linkeable no necesariamete tengo que estar sobre el texto*/
+}
+a{
+  display:block;/*muestra un bloque que ocupe el espacio de su etiqueta contenedor padre li*/
+  text-decoration:none;
+  color:black;
+  font-family:cursive;
+}
+a:hover{
+ background:#d9b339;  
+}
+img{
+  max-width:100%;
+}
+.libros{
+  border: 3px solid #999;
+  box-sizing:border-box;
+  padding:1px;
+  margin-top:3em;/*dar espacio arriba de cada  
+  elemento*/
+  margin-left:2em;/*dar espacio izquierdo por cada  
+  elemento*/
+  width:20%;
+  display:inline-block;/*colocarlo en linea*/
+}
+p{
+  font-family: cursive;
+  font-size:17px;
+}
+p i{
+  color:red;
+  /*font-weight:30px;*/
+}
+button{
+  border-radius:5px;
+  border-color:orange;
+  background-color: orange;
+  color:white;
+  margin-left:65%;
+  width:80px;
+  height:30px;
+}
+#sgt{
+  margin-left:90%;
+  background-color:grey;
+  border-radius:5px;
+  border-color:grey;
+  color:white;
+  font-size:20px;
+  width:10%;
+  height:40px;;
+}
+/*VENTANA DOS*/
+#ventana2{
+ display:none; 
+ text-align:center;
+ margin-top:100px;
+}
+h2{
+  font-family:cursive;
+}
+input{
+  margin-top:20px;
+  font-size:20px;
+  width:30%;
+  height:50px;
+}
+.input{
+  width:15%;
+}
+#pagar{
+  border-radius:5px;
+  border-color:limegreen;
+  background-color: greenyellow;
+  color:black;
+  margin-left:1%;
+  font-size:25px;
+  margin-top:20px;
+  width:150px;
+  height:50px;
+}
