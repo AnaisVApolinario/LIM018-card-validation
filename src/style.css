@@ -1,4 +1,9 @@
-
+#ventana1{
+  display:block;
+}
+#ventana2{
+  display:none;
+}
 body{
   font-family:sans-serif;
   background-color: azure;
@@ -15,10 +20,10 @@ header{
   background-color:#39d1d9;
   text-align:center;
 }
-/*Ventana 1 */
-#ventana1{
-  display:block;
+input[placeholder]{
+     text-align:center;
 }
+/*Ventana 1 */
 ul{
   list-style:none;/*sin estilo de lista*/
   padding:0;
@@ -83,7 +88,6 @@ button{
 }
 /*VENTANA DOS*/
 #ventana2{
- display:none; 
  text-align:center;
  margin-top:100px;
 }
