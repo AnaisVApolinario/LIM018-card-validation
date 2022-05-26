@@ -21,7 +21,7 @@
         </nav>
     </header> 
     <main id="ventana1">
-      <div class=libros>
+      <div class="libros">
         <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1573636860l/48762854._SX318_.jpg">
         <p>Jesus en rojo
           <br>
@@ -30,7 +30,7 @@
           <button>Comprar</button>
         </p>
       </div>
-      <div class=libros>
+      <div class="libros">
         <img src="https://images-na.ssl-images-amazon.com/images/I/81PCitNxx2L.jpg">
         <p>Hechos cientificos en la biblia
           <br>
@@ -39,7 +39,7 @@
           <button>Comprar</button>
         </p>
       </div>
-      <div class=libros>
+      <div class="libros">
         <img src="https://m.media-amazon.com/images/I/41U4YIUOmbL.jpg">
         <p>Mi consuelo es Jesus 
           <br>
@@ -48,7 +48,7 @@
           <button>Comprar</button>
         </p>
       </div>
-      <div class=libros>
+      <div class="libros">
         <img src="https://images-na.ssl-images-amazon.com/images/I/51NiNVLGgQL._SX356_BO1,204,203,200_.jpg">
         <p>Lo que muestra tu nariz
           <br>
@@ -57,7 +57,7 @@
           <button>Comprar</button>
         </p>
       </div>
-      <div class=libros>
+      <div class="libros">
         <img src="https://cdn.slidesharecdn.com/ss_thumbnails/diostieneunplanmaravillosoparatuvida-raycomfort-130831003449-phpapp02-thumbnail-4.jpg?cb=1377909453">
         <p>Dios tiene un plan maravilloso para tu vida
           <br>
@@ -66,7 +66,7 @@
           <button>Comprar</button>
         </p>
       </div>
-      <div class=libros>
+      <div class="libros">
         <img src="https://g.christianbook.com/dg/product/web/f450/16542EB.jpg">
         <p>Vence tu temor y comparte tu fe
           <br>
@@ -75,7 +75,7 @@
           <button>Comprar</button>
         </p>
       </div>
-      <div class=libros>
+      <div class="libros">
         <img src="https://images-na.ssl-images-amazon.com/images/I/61BiUEQu5cL.jpg">
         <p>Dios no cree en los ateos
           <br>
@@ -84,7 +84,7 @@
           <button>Comprar</button>
         </p>
       </div>
-      <div class=libros>
+      <div class="libros">
         <img src="https://images-na.ssl-images-amazon.com/images/I/41aWIMTtmvL._SX342_SY445_QL70_ML2_.jpg">
         <p>La Verdadera Bellleza
           <br>
@@ -106,15 +106,15 @@
     </main>
     <div id="ventana2">
       <h2>PAGOS</h2>
-      <input type="text"placeholder="@gmail.com" value="">
+      <input type="text" placeholder="@gmail.com" value="">
       <br>
-      <input type="text" id="tarjeta" placeholder="Numero de tarjeta" value="">
+      <input type="text" id="tarjeta" maxlength="16" placeholder="Numero de tarjeta" value="">
       <br>
-      <input type="text" class="input" placeholder="mm/yy" value="">
-      <input type="text" class="input"placeholder="CVV" value="">
+      <input type="text" class="input" maxlength="5" placeholder="mm/yy" value="">
+      <input type="text" class="input" maxlength="3" placeholder="CVV" value="">
       <p id="v/i"></p>
       <br>
-    <button id="pagar" onclick='document.getElementById("v/i").innerHTML = "¡↔Tarjeta Valida↔! \t Pago exitoso"'>Pagar</button>
+    <button id="pagar" onclick="pago()">Pagar</button>
     </div>
     <footer></footer>
     <script src="index.js" type="module"></script>
