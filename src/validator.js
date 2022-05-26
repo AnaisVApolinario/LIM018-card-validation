@@ -23,7 +23,7 @@ const validator = {
       }
     }
     suma=impares+menores+mayores;
-    console.log(suma);
+    //console.log(suma);
     if(suma%10===0){
       return true;
     }else{
@@ -34,8 +34,9 @@ const validator = {
     // let mascara="#";
     // let enmascarar= cCardNumber.slice(0,-4).replace(/./g,mascara)+(cCardNumber).slice(-4);
     // console.log(enmascarar);
+    return cCardNumber.split('').map((letra,i) => i<cCardNumber.length - 4 ? '#':letra).join('');
+    //console.log(enmascarar);
   }
-  
 };
 
 //console.log(validator.isValid());
