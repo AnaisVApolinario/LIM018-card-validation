@@ -106,15 +106,16 @@
     </main>
     <div id="ventana2">
       <h2>PAGOS</h2>
-      <input type="text" placeholder="@gmail.com" value="">
+      <input type="text" placeholder="@gmail.com" value="" required/>
       <br>
-      <input type="text" id="tarjeta" maxlength="16" placeholder="Numero de tarjeta" value="">
+      <input type="text" id="tarjeta" maxlength="16" placeholder="Numero de tarjeta" value="" required/>
       <br>
-      <input type="text" class="input" maxlength="5" placeholder="mm/yy" value="">
-      <input type="text" class="input" maxlength="3" placeholder="CVV" value="">
+      <input type="text" class="input" maxlength="5" placeholder="mm/yy" value="" required/>
+      <input type="text" class="input" maxlength="3" placeholder="CVV" value="" required/>
       <p id="v/i"></p>
       <br>
-    <button id="pagar" onclick="pago()">Pagar</button>
+    <button id="pagar">Pagar</button>
+    <p id="msj_Validacion"></p>
     </div>
     <footer></footer>
     <script src="index.js" type="module"></script>
