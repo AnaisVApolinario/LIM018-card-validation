@@ -3,18 +3,20 @@ import validator from './validator.js';
 let btn_pagar=document.getElementById("pagar");
 btn_pagar.addEventListener("click",pago);
 function pago(){
-    let num= document.getElementById("tarjeta").value;
-    let numValidado=validator.isValid(num);
-    //let mask=validator.maskify(num);
+    let num= document.getElementById("tarjeta");
+    let numValidado=validator.isValid(num.value);
+    let mask=validator.maskify(num.value);
     let mensaje= document.getElementById("msj_Validacion");
     if(numValidado==true){
-        mensaje.innerHTML='¡¡Tarjeta Valida!! Su pago fue exitoso!!!';
+        mensaje.innerText='¡¡Tarjeta Valida!! Su pago fue exitoso!!!';
+        num.value=mask;
     }else{
-        mensaje.innerHTML='Tarjeta Invalida';
+        mensaje.innerText='Tarjeta Invalida';
+        num.value=mask;
     }
     return mensaje;
 }
-
+//onsole.log(validator.maskify(num));
 //console.log(validator.isValid('4083952015263'));
 //Pasar los test
 // validator.isValid('4083952015263');
