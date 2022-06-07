@@ -48,7 +48,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### HTML
 
-- [ ] **Uso de HTML semántico**
+- [] **Uso de HTML semántico**
 
   <details><summary>Links</summary><p>
 
@@ -58,7 +58,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### CSS
 
-- [ ] **Uso de selectores de CSS**
+- [] **Uso de selectores de CSS**
 
   <details><summary>Links</summary><p>
 
@@ -79,7 +79,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### Web APIs
 
-- [ ] **Uso de selectores del DOM**
+- [] **Uso de selectores del DOM**
 
   <details><summary>Links</summary><p>
 
@@ -112,14 +112,14 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### JavaScript
 
-- [ ] **Tipos de datos primitivos**
+- [] **Tipos de datos primitivos**
 
   <details><summary>Links</summary><p>
 
   * [Valores primitivos - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Data_structures#valores_primitivos)
 </p></details>
 
-- [ ] **Strings (cadenas de caracteres)**
+- [] **Strings (cadenas de caracteres)**
 
   <details><summary>Links</summary><p>
 
@@ -127,7 +127,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [String — Cadena de caracteres - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String)
 </p></details>
 
-- [ ] **Variables (declaración, asignación, ámbito)**
+- [] **Variables (declaración, asignación, ámbito)**
 
   <details><summary>Links</summary><p>
 
@@ -135,7 +135,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [Variables](https://curriculum.laboratoria.la/es/topics/javascript/01-basics/02-variables)
 </p></details>
 
-- [ ] **Uso de condicionales (if-else, switch, operador ternario, lógica booleana)**
+- [] **Uso de condicionales (if-else, switch, operador ternario, lógica booleana)**
 
   <details><summary>Links</summary><p>
 
@@ -143,7 +143,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [Tomando decisiones en tu código — condicionales - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/conditionals)
 </p></details>
 
-- [ ] **Uso de bucles/ciclos (while, for, for..of)**
+- [] **Uso de bucles/ciclos (while, for, for..of)**
 
   <details><summary>Links</summary><p>
 
@@ -182,9 +182,9 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### Control de Versiones (Git y GitHub)
 
-- [ ] **Git: Instalación y configuración**
+- [] **Git: Instalación y configuración**
 
-- [ ] **Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)**
+- [] **Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)**
 
 - [ ] **GitHub: Creación de cuenta y repos, configuración de llaves SSH**
 
@@ -197,11 +197,11 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### user-centricity
 
-- [ ] **Diseñar un producto o servicio poniendo a la usuaria en el centro**
+- [] **Diseñar un producto o servicio poniendo a la usuaria en el centro**
 
 ### product-design
 
-- [ ] **Crear prototipos de alta fidelidad que incluyan interacciones**
+- [] **Crear prototipos de alta fidelidad que incluyan interacciones**
 
 - [ ] **Seguir los principios básicos de diseño visual**
 
