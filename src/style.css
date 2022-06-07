@@ -43,10 +43,10 @@ a{
   font-family:cursive;
 }
 a:hover{
- background:#d9b339;  
+ background-color:#d9b339;  
 }
 img{
-  max-width:100%;
+  width:100%; /*max-width*/
 }
 .libros{
   border: 3px solid #999;
