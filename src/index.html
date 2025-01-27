@@ -1,137 +1,144 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
-    <meta charset="utf-8">
-    <title>Livin Water</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Living Water</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <h1>LIVING WATER<i>- ESPAÑOL</i></h1>
-        <nav>
-          <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Niños</a></li>
-            <li><a href="#">Jovenes</a></li>
-            <li><a href="#">Padres</a></li>
-            <li><a href="#">Historia</a></li>
-            <li><a href="#">Evangelismo</a></li>
-            <li><a href="#">Otros...</a></li>
-          </ul>
-        </nav>
-    </header> 
-    <main id="ventana1">
-      <div class="libros">
-        <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1573636860l/48762854._SX318_.jpg">
-        <p>Jesus en rojo
-          <br>
-          <i>$12.90</i>
-          <br>
-          <button>Comprar</button>
-        </p>
-      </div>
-      <div class="libros">
-        <img src="https://images-na.ssl-images-amazon.com/images/I/81PCitNxx2L.jpg">
-        <p>Hechos cientificos en la biblia
-          <br>
-          <i>$16.00</i>
-          <br>
-          <button>Comprar</button>
-        </p>
-      </div>
-      <div class="libros">
-        <img src="https://m.media-amazon.com/images/I/41U4YIUOmbL.jpg">
-        <p>Mi consuelo es Jesus 
-          <br>
-          <i>$11.99</i>
-          <br>
-          <button>Comprar</button>
-        </p>
-      </div>
-      <div class="libros">
-        <img src="https://images-na.ssl-images-amazon.com/images/I/51NiNVLGgQL._SX356_BO1,204,203,200_.jpg">
-        <p>Lo que muestra tu nariz
-          <br>
-          <i>$12.90</i>
-          <br>
-          <button>Comprar</button>
-        </p>
-      </div>
-      <div class="libros">
-        <img src="https://cdn.slidesharecdn.com/ss_thumbnails/diostieneunplanmaravillosoparatuvida-raycomfort-130831003449-phpapp02-thumbnail-4.jpg?cb=1377909453">
-        <p>Dios tiene un plan maravilloso para tu vida
-          <br>
-          <i>$12.90</i>
-          <br>
-          <button>Comprar</button>
-        </p>
-      </div>
-      <div class="libros">
-        <img src="https://g.christianbook.com/dg/product/web/f450/16542EB.jpg">
-        <p>Vence tu temor y comparte tu fe
-          <br>
-          <i>$16.0</i>
-          <br>
-          <button>Comprar</button>
-        </p>
-      </div>
-      <div class="libros">
-        <img src="https://pictures.abebooks.com/isbn/9780882709222-es-300.jpg">
-        <p>Dios no cree en los ateos
-          <br>
-          <i>$11.99</i>
-          <br>
-          <button>Comprar</button>
-        </p>
-      </div>
-      <div class="libros">
-        <img src="https://images-na.ssl-images-amazon.com/images/I/41aWIMTtmvL._SX342_SY445_QL70_ML2_.jpg">
-        <p>La Verdadera Bellleza
-          <br>
-          <i>$11.99</i>
-          <br>
-          <button>Comprar</button>
-        </p>
-      </div>
-      <div class="libros">
-        <img src="https://images-na.ssl-images-amazon.com/images/I/61BiUEQu5cL.jpg">
-        <p>Hittler, Dios y la Biblia
-          <br>
-          <i>$11.99</i>
-          <br>
-          <button>Comprar</button>
-        </p>
-      </div>
-      <button id="sgt">Siguiente</button>
-    </main>
-    <div id="ventana2">
-      <h2>PAGOS</h2>
-      <input type="text" maxlength="30" placeholder="@gmail.com" value=""/>
-      <br>
-      <input type="text" id="tarjeta" maxlength="16" placeholder="Numero de tarjeta" value=""/>
-      <br>
-      <input type="month" id="input" placeholder="mm/yy" value="" />
-      <input type="text" id="input2" maxlength="3" placeholder="CVV" value=""/>
-      <p id="v/i"></p>
-      <br>
-    <button id="pagar">Pagar</button>
-    <p id="msj_Validacion"></p>
-    </div>
-    <footer>
-      <div id="contacto">
-        <h3>Contactenos</h3>
-        <p class="num">9945673345</p>
-        <p class="num">5467-4562</p>
-        <p class="num">livingW_E@gmail.com</p>
-      </div>
-      <div id="seguir">
-        <h3>Siguenos</h3>
-        <a href="https://www.facebook.com/aguasvivientes/"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="redes">&nbsp;&nbsp;&nbsp;Facebook</a>
-        <a href="https://twitter.com/AguasVivientes"><img src="https://cdn-icons-png.flaticon.com/512/1409/1409937.png" alt="redes">&nbsp;&nbsp;&nbsp;Twitter</a>
-        <a href="https://www.instagram.com/livingwatersofficial/"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="redes">&nbsp;&nbsp;&nbsp;Instagram</a>
-      </div>
+    <header class="header">
+      <h1 class="header__title">
+        LIVING WATER <i class="header__subtitle">- ESPAÑOL</i>
+      </h1>
+      <nav class="header__nav">
+        <ul class="nav__menu">
+          <li class="nav__menu-item">
+            <a class="menu-item__link" data-category="all">Inicio</a>
+          </li>
+          <li class="nav__menu-item">
+            <a class="menu-item__link" data-category="jovenes">Jóvenes</a>
+          </li>
+          <li class="nav__menu-item">
+            <a class="menu-item__link" data-category="padres">Padres</a>
+          </li>
+          <li class="nav__menu-item">
+            <a class="menu-item__link" data-category="historia">Historia</a>
+          </li>
+          <li class="nav__menu-item nav__menu-item--cart">
+            <a class="menu-item__cart-icon">
+              <i class="bx bx-cart" aria-hidden="true"></i>
+              <span class="menu-item__cart-counter" aria-live="polite"></span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
+    <main class="main">
+      <section class="main__books" aria-label="Libros disponibles"></section>
+
+      <section class="main__payment" aria-labelledby="payment-section">
+        <h2 class="main__payment-title">PAGOS</h2>
+        <form
+          id="form-pago"
+          class="main__payment-form"
+          aria-describedby="validation-message"
+        >
+          <div class="payment-form__group">
+            <label for="email" class="form-group__label">Correo electrónico</label>
+            <input
+              id="email"
+              type="email"
+              class="form-group__input"
+              maxlength="30"
+              placeholder="ejemplo@gmail.com"
+              required
+            />
+          </div>
+
+          <div class="payment-form__group">
+            <label for="tarjeta" class="form-group__label">Número de tarjeta</label>
+            <input
+              type="text"
+              id="tarjeta"
+              class="form-group__input"
+              maxlength="16"
+              placeholder="Número de tarjeta"
+              required
+            />
+          </div>
+
+          <div class="payment-form__group payment-form__group--inline">
+            <label for="date" class="form-group__label">Fecha de expiración</label>
+            <input type="month" id="date" class="main__input" required />
+          </div>
+
+          <div class="payment-form__group">
+            <label for="cvv" class="form-group__label">CVV</label>
+            <input
+              type="text"
+              id="cvv"
+              class="form-group__input"
+              maxlength="3"
+              placeholder="CVV"
+              required
+            />
+          </div>
+
+          <p id="validation-message" class="payment-form__validation-message"></p>
+
+          <button id="pagar" type="submit" class="payment-form__button">Pagar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__social-icons">
+        <a
+          href="https://www.facebook.com/livingwatersespanol"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Facebook"
+          class="social-icons__link"
+        >
+          <i class="bx bxl-facebook" aria-hidden="true"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/livingwatersofficial/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram"
+          class="social-icons__link"
+        >
+          <i class="bx bxl-instagram" aria-hidden="true"></i>
+        </a>
+        <a
+          href="https://twitter.com/AguasVivientes"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Twitter"
+          class="social-icons__link"
+        >
+          <i class="bx bxl-twitter" aria-hidden="true"></i>
+        </a>
+        <a
+          href="https://www.youtube.com/@LivingWatersEspanol"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="YouTube"
+          class="social-icons__link"
+        >
+          <i class="bx bxl-youtube" aria-hidden="true"></i>
+        </a>
+      </div>
+      <p class="footer__copyright">© 2025 - Diseñado por AV</p>
     </footer>
+
     <script src="index.js" type="module"></script>
   </body>
 </html>
