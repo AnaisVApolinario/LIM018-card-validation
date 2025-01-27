@@ -8,7 +8,6 @@ Debido al problema de nuestros usuarios surge esta tienda virtual para llegar a 
 les gusta leer, esta tienda virtual incluye libros para todas las edades y el pago se hace en la misma página, de esta manera ahorrando tiempo.    
 ## 4.Colocarás la foto de tu primer prototipo en papel y en figma.
 ![Card_Val](https://user-images.githubusercontent.com/105659228/171439202-b3accb5d-6997-4e16-977d-8b10fdb3e985.png)
-![footer](https://user-images.githubusercontent.com/105659228/171439204-563e8843-55e5-4b4e-b744-b45b9ada9b7a.png)
 ![Prototipo](https://user-images.githubusercontent.com/105659228/171439205-725af5c3-26d3-4f31-b729-021ba021aef8.png)
 
 ## 5.Agregar un resumen del feedback recibido indicando las mejoras a realizar.
