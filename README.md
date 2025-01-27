@@ -18,8 +18,6 @@ realmente tenia que priorizar, lo cual me ayudo mucho y fue asi como pude avanza
 que me faltaba. 
 
 ## 6. Imagen del prototipo final.
-![Parte Superior](https://user-images.githubusercontent.com/105659228/171440489-cc99176a-8d5b-4675-88bb-8b17e42fd2d3.png)
-![Parte Inferior](https://user-images.githubusercontent.com/105659228/171440488-e5a90828-316f-43de-91f7-8be10eb7d0bd.png)
-![Ventana_2](https://user-images.githubusercontent.com/105659228/171440499-bf6d3426-3555-4120-b287-576c3b1e03a2.png)
+![prototipo-card](https://github.com/user-attachments/assets/d44589d7-76a3-4b8b-84aa-151322cd3eff)
 ## 7.Trello
 https://trello.com/b/FRbQwARw/card-validation
