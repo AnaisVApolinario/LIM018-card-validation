@@ -1,44 +1,28 @@
 const validator = {
-  isValid:function(cCardNumber){ // "2,9,7,8"
-    let miArray= cCardNumber.split('');//Convertido a Array  ["2","9","7","8"]
-    let inverso=miArray.reverse();//Inverti el array ["8","9","7","2"]
-    let arrayNum=inverso.map(Number);//Nuevo array convertido a number [8,9,7,2]
-    let unidad=0;
-    let impares=0;
-    let menores=0;
-    let mayores=0;
-    let suma=0;
-    for(let i=0; i<arrayNum.length;i++){
-      if(i%2!=0){     // 0=8/2  1=9/2  2=7/2  3=2/2
-        unidad=arrayNum[i];//[9 2]
-        unidad*=2; //9*2=18  2*2=4
-        if(unidad>9){ 
-          unidad= 1 + (unidad % 10);//18(8)  1+8=9
-          mayores+=unidad; //->9
-        }else{
-          menores+=unidad;//2
-        }                                                  
-      }else{
-        impares+=arrayNum[i]; // 8 7->15
+  isValid: function (creditCardNumber) { 
+    // Convierte el número a un nuevo array de dígitos invertido
+    const digits = creditCardNumber.split("").reverse().map(Number); 
+  
+    // Calcula la suma según el algoritmo de Luhn
+    const totalSum = digits.reduce((sum, digit, index) => {
+      if (index % 2 !== 0) {
+        let doubled = digit * 2;
+        return sum + (doubled > 9 ? doubled - 9 : doubled);
       }
-    }
-    suma=impares+menores+mayores;
-    //console.log(suma);
-    if(suma%10===0){
-      return true;
-    }else{
-      return false 
-    }
-  }, 
-  maskify:function(cCardNumber){
-    return cCardNumber.split('').map((letra,i) => i<cCardNumber.length - 4 ? '#':letra).join('');
-  }
-};
-// let mascara="#";
-    // let enmascarar= cCardNumber.slice(0,-4).replace(/./g,mascara)+(cCardNumber).slice(-4);
-    //console.log(enmascarar);
- 
-//console.log(validator.maskify(cCardNumber));
+      return sum + digit; 
+    }, 0);
 
-//console.log(validator.isValid());
+    // Es válido si la suma es divisible entre 10
+    return totalSum % 10 === 0;
+
+  },
+  maskify: function (creditCardNumber) {
+    // Enmascara todos los dígitos excepto los últimos cuatro
+    return creditCardNumber
+      .split("")
+      .map((char, index) => (index < creditCardNumber.length - 4 ? "#" : char))
+      .join("");
+  },
+};
+
 export default validator;
