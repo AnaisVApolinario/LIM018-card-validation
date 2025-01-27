@@ -1,5 +1,6 @@
 # LIVING WATERS-ESPAÑOL
 ## 1.¿De qué trata mi proyecto?
+Este proyecto implementa la funcionalidad de validación de tarjetas de crédito dentro de una temática de venta de libros en línea.
 Living Waters-Español es una tienda de venta de libros con contenido cristiano en español para todas las personas que quieren comprar libros de autores americanos.
 ## 2.¿Quienes son los usuarios y los objetivos en relación con el producto?
 Los usuarios son personas apasionadas por la lectura que buscan libros con contenido cristiano en español para ellos y para sus hijos, personas que se cansaron de buscar en distintas tiendas fisicas de su pais los libros de su interes que muchas veces no lo encontraban y solamente perdian tiempo y dinero.
